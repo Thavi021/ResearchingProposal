@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head><script src="../assets/js/color-modes.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.115.4">
+    <title>Thaveshan Naidoo ST10120981 Privacy and security in Big Data Environments a case study of the banking sector in South Africa</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/blog/">
+
+    
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .btn-bd-primary {
+        --bd-violet-bg: #712cf9;
+        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+        --bs-btn-font-weight: 600;
+        --bs-btn-color: var(--bs-white);
+        --bs-btn-bg: var(--bd-violet-bg);
+        --bs-btn-border-color: var(--bd-violet-bg);
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #6528e0;
+        --bs-btn-hover-border-color: #6528e0;
+        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+        --bs-btn-active-color: var(--bs-btn-hover-color);
+        --bs-btn-active-bg: #5a23c8;
+        --bs-btn-active-border-color: #5a23c8;
+      }
+      .bd-mode-toggle {
+        z-index: 1500;
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="blog.css" rel="stylesheet">
+  </head>
+  <body>
+    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+      <symbol id="check2" viewBox="0 0 16 16">
+        <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+      </symbol>
+      <symbol id="circle-half" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
+      </symbol>
+      <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+        <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+        <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/>
+      </symbol>
+      <symbol id="sun-fill" viewBox="0 0 16 16">
+        <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+      </symbol>
+    </svg>
+
+    <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
+      <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"
+              id="bd-theme"
+              type="button"
+              aria-expanded="false"
+              data-bs-toggle="dropdown"
+              aria-label="Toggle theme (auto)">
+        <svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#circle-half"></use></svg>
+        <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
+      </button>
+      <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
+        <li>
+          <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
+            <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#sun-fill"></use></svg>
+            Light
+            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+          </button>
+        </li>
+        <li>
+          <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
+            <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
+            Dark
+            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+          </button>
+        </li>
+        <li>
+          <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto" aria-pressed="true">
+            <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#circle-half"></use></svg>
+            Auto
+            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    
+<svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+  <symbol id="aperture" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="10"/>
+    <path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/>
+  </symbol>
+  <symbol id="cart" viewBox="0 0 16 16">
+    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+  </symbol>
+  <symbol id="chevron-right" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+  </symbol>
+</svg>
+
+<div class="container">
+  <header class="border-bottom lh-1 py-3">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+      <div class="col-4 pt-1">
+        <a class="link-secondary" href="https://www.iiemsa.co.za/"><img src="/LOGO/IIEMSALOGO1.jpg" alt="IIE MSA" width="100" height="55"></a>
+      </div>
+      <div class="col-4 text-center">
+        <a class="blog-header-logo text-body-emphasis text-decoration-none" href="#">Privacy and security in Big Data Environments a case study of the banking sector in South Africa.</a>
+      </div>
+      <div class="col-4 d-flex justify-content-end align-items-center">
+        <a class="link-secondary" href="#" aria-label="Search">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img" viewBox="0 0 24 24"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"/><path d="M21 21l-5.2-5.2"/></svg>
+        </a>
+        <a class="btn btn-sm btn-outline-secondary" href="/ThaveshanNaidoo.html">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="nav-scroller py-1 mb-3 border-bottom">
+    <nav class="nav nav-underline justify-content-between">
+      <a class="nav-item nav-link link-body-emphasis" href="/index.html">Research Report</a>
+      <a class="nav-item nav-link link-body-emphasis" href="/ResearchProposal.html">Proposal Document</a>
+      <a class="nav-item nav-link link-body-emphasis" href="/conceptdoc.html">Concept Document</a>
+      <a class="nav-item nav-link link-body-emphasis" href="/population.html">Population</a>
+      <a class="nav-item nav-link link-body-emphasis" href="/collection.html">Collection</a>
+      <a class="nav-item nav-link link-body-emphasis" href="/analysis.html">Data Analysis</a>
+      <a class="nav-item nav-link link-body-emphasis" href="/findings.html">Findings</a>
+      <a class="nav-item nav-link link-body-emphasis" href="/questions.html">Questions</a>
+      <a class="nav-item nav-link link-body-emphasis" href="/Reference.html">Reference</a>
+  
+    </nav>
+  </div>
+</div>
+
+<main class="container">
+  <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+    <div class="col-lg-6 px-0">
+      <h1 class="display-4 fst-italic">Literature Review</h1>
+      <p class="lead my-3">Google forms based.</p>
+      <p class="lead mb-0"><a href="#" class="text-body-emphasis fw-bold">View Forms on Google forms.</a></p>
+    </div>
+  </div>
+
+  <div class="row mb-2">
+    <div class="col-md-6">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-primary-emphasis">World</strong>
+          <h3 class="mb-0">Featured post</h3>
+          <div class="mb-1 text-body-secondary">Nov 12</div>
+          <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+            Continue reading
+            <svg class="bi"><use xlink:href="#chevron-right"/></svg>
+          </a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-success-emphasis">Design</strong>
+          <h3 class="mb-0">Post title</h3>
+          <div class="mb-1 text-body-secondary">Nov 11</div>
+          <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+            Continue reading
+            <svg class="bi"><use xlink:href="#chevron-right"/></svg>
+          </a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row g-5">
+    <div class="col-md-8">
+      <h3 class="pb-4 mb-4 fst-italic border-bottom">
+        From the Firehose
+      </h3>
+
+      <article class="blog-post">
+        <h2 class="display-5 link-body-emphasis mb-1">Literature Review</h2>
+        <p class="blog-post-meta">August 01, 2023 by <a href="#">Thaveshan Naidoo</a></p>
+
+        <p>The aim of this article is to use the information from the selected seminal sources to find ways of understanding bid data and improving its security and privacy in the financial sector.
+            The themes covered are:
+            
+            The key themes will be Data storage for Big Data, Risks of data breaches, Data Threats, Data safety, Data validity, Data and Ethics, limitations, and Big Data Solutions.
+            </p>
+        <hr>
+        <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+        
+
+      <article class="blog-post">
+        <h2 class="display-5 link-body-emphasis mb-1">New feature</h2>
+        <p class="blog-post-meta">December 14, 2020 by <a href="#">Chris</a></p>
+
+        <p>
+
+            Introduction:
+            Big data cannot be stored in a local database. Big data must be either stored in multiple large local databases or stored in the cloud. Some banks on a large scale will opt for a local server room to manage the data and store it.  The issue with storing this important data in one location is that is prone to breaches and attacks. Competition between companies often leads to rival companies sending a qualified hacker to destroy or steal data from this opposing company's database. This can be bank-to-bank competition. This is a risk to the safety of the clients and the bank’s property. This could ruin a company’s reputation and potentially corrupt its analytics, which makes use of the data captured.
+            It is completely unethical for companies to try to gain a competitive advantage doing this, but our reality is that it happens. A bank getting caught acting in such behavior can be punished through law. A large database is limited when validating the type of data that enters the database. Often this quantity of data is difficult to validate without having a system crash or data loss, this could even result in a longer waiting time for services offered by this AI platform.
+            
+            The following is taken from an article that describes the Cyber Security of Mobile Banking Apps of a bank in Saudi Arabia. I have interpreted my understanding and its link to my study for each major discovery by Amar Johri.
+            
+            
+            
+            According to Amar Johri (2023), ‘Although there are many opportunities presented by digital transformation in the banking industry, there are also numerous problems.’
+            This is what we have been discussing. As good as online banking is there remain many flaws.
+            According to Amar Johri (2023), ‘Simple methods for carrying out numerous financial transactions as part of the banking industry's digital transition include mobile banking and online banking.’ 
+            Johri in this source is focusing on only mobile banking and online banking.
+            According to Amar Johri (2023), ‘Customers gain from these services, but they also face substantial challenges due to the threat and potential for cyberattacks.’ According to Amar Johri (2023), ‘The digital transformation of the banking industry has created some significant issues, including cyberattacks, financial fraud, hacking, phishing, and security awareness.’ 
+            The author has exclaimed Cyberattacks, financial fraud, hacking, and phishing are the major threats against online banking and mobile banking.
+            According to Amar Johri (2023), ‘Customers' understanding of cybersecurity may often be more ambiguous in several respects.’ According to Amar Johri (2023), ‘While utilizing the digital platforms of the banks, they must be aware of safe technological practices.’ According to Amar Johri (2023), ‘Customers of the bank are increasingly becoming digital/cyber literate as a result of cyberattacks, phishing, and hacking.’
+            The authors’ research is evident that the larger the data the more people have claimed fraudulent activity on their mobile and online banking apps.
+            
+            According to Amar Johri (2023), ‘The development and innovation of digital technology represent a huge challenge for the banking industry.’ According to Amar Johri (2023), ‘It has been seen as both a chance for the bank's current business model to grow and develop as well as a threat to the viability of the bank's operations.’ 
+            The author tells us how the growth in the technology industry is benefiting the users but is opening more risks to a physical cash-only system. 
+            
+            According to Amar Johri (2023), ‘Information technology is also crucial to this type of digital transformation.’ According to Amar Johri (2023) ‘In addition to offering a platform for major innovation in digital services, it offers operating support on a variety of technical fronts.’
+            
+            According to Amar Johri (2023) ‘Monitoring the bank's cybersecurity requires extensive discussion.’ According to Amar Johri (2023), ‘Banks are currently digitizing all financial services as part of the digital transformation, including the private data of their clients that is kept and sent through a network.’ 
+            The author mentions how privacy plays a role in maintaining security.
+            According to Amar Johri (2023) ‘Due to the lack of awareness among users of Internet and mobile banking, these services are subject to numerous hacks.’ Amar Johri (2023) ‘To prevent such assaults and improve consumer satisfaction, banks must upgrade their cybersecurity procedures.’ 
+            The author has mentioned how security and privacy in the banking sector are at a minimum and need an update which is directly linked to the problem statement.
+            According to Amar Johri (2023), ‘Banking consumers need to actively be aware of ATM skimming if they are to protect themselves from this kind of theft.’ According to Amar Johri (2023), ‘Targeted action is necessary to address the pervasive issue of ATM skimming.’ According to Amar Johri (2023) ‘When skimming tools, such as the false keypad and rain cover, are installed on ATM machines, it is referred to as ATM skimming.’
+            The author is very clearly addressing how keeping data private and secure is not only the bank’s job but the customer’s as well, this is leading to my argument that customers have just as much responsibility to keep their data safe and secure compared to the responsibility of the data holder.
+            
+            According to Amar Johri Amar Johri (2023), ‘The problem of card fraud that already plagues the financial sector greatly is exacerbated by card skimming.’
+            The author has brought up that there are people out there with the intention of copying users’ credit cards and stealing their details to commit fraudulent activity.
+            
+            According to Amar Johri Amar Johri (2023), ‘With the digital revolution of banking operations, cybersecurity awareness has emerged as a crucial factor in securing our mobile banking applications and Internet banking-related activities.’ According to Amar Johri Amar Johri (2023), ‘Customers will gain a better understanding of many general and technical aspects of their cybersecurity thanks to the current study.’ According to Amar Johri Amar Johri (2023), ‘Additionally, it will aid banks in understanding the degree to which clients are now satisfied with the security of the bank, the cybersecurity support provided by the bank, and their expectations for technological support cybersecurity services.’
+            As a solution, the author’s study comes to that the awareness of these threats growing as fast as technology. The author has the same objective as this article to raise awareness of cybercrime and ensure readers understand to keep their data private and secure as the bank can only provide so much protection.
+            
+            The following is taken from an article that describes the relationship between cyber security knowledge, Awareness, and behavioral choice protection among mobile banking users in Thailand. I have interpreted my understanding and its link to my study for each major discovery by Pongsakorn Limna.
+            
+            According to Pongsakorn Limna (2022), ‘Cybersecurity knowledge and awareness were essential but insufficient on their own to change behavior, necessitating the use of additional persuasion techniques.’ 
+            The author is mentioning again that awareness is the biggest way to avoid cybercrimes.
+            According to Pongsakorn Limna (2022), ‘Instilling good cyber security habits was essential since they could contribute to habitual thinking that becomes a component of the cyber security infrastructure of an organization.’
+            The author is further saying that awareness of cybercrimes is going to affect the implementation of a prevention method of cybercrime.
+            According to Pongsakorn Limna (2022), ‘The protection offered by behavioral choices, such as strengthening freshly chosen passwords, improved with increased awareness of information security dangers.’
+            According to Pongsakorn Limna (2022), ‘It was found that awareness of information security, in particular, served as a covert intermediary between openness and the desire to check privacy settings.’ 
+            According to Pongsakorn Limna (2022), ‘Users with a high level of openness expressed a greater urge to evaluate privacy settings as they became more aware of dangers to their privacy (e.g., via privacy news and events).’
+            The study is evident that people felt less secure after viewing what privacy settings are and how they apply to them. This is an ethical consideration because privacy is meant to protect not scare.
+            
+            According to Pongsakorn Limna (2022), ‘Additionally, even if in a complimentary way, information security awareness mediated the association between conscientiousness and intention to check privacy settings.’ According to Pongsakorn Limna (2022), ‘Therefore, influencing behavioral choice protection among Thai users of mobile banking requires knowledge and awareness of cyber security issues.’ 
+            The author has completed the study and the results that a simple button that tells the users about the privacy settings has increased the awareness of cyber attacks in Thailand.
+            According to Pongsakorn Limna (2022), ‘In order to satisfy the requirements and expectations of users of mobile banking, institutions should have an efficient cybersecurity plan.’ According to Pongsakorn Limna (2022), ‘As a result, more people may start using mobile banking.’ According to Pongsakorn Limna (2022), ‘There will be strong business performance.’
+            Towards the solution of this article, the author is suggesting that with the increase of larger traffic, the cyber security plan should be growing at an equal rate.
+            
+            According to Pongsakorn Limna (2022), ‘To change Thai mobile banking customers' behavior in terms of safety, it is essential to increase their understanding and awareness of cyber security.’ 
+            The article aims toward awareness and the author explains after the data analysis awareness of what is cyber crimes and maintaining cyber security and privacy will lead to a decrease in the number of cybercrime cases in the banking sector.
+            
+            According to Pongsakorn Limna (2022), ‘Banks must consequently create a strong cyber security plan in order to satisfy the demands and expectations of mobile banking consumers.’ 
+            According to Pongsakorn Limna (2022), ‘As a result, there might be an increase in users of mobile banking, and business performance might improve.’ 
+            The author is explaining how the cyber security plan cannot remain the same if the rate of traffic in the database of the bank is not constant.
+            According to Pongsakorn Limna (2022), ‘By improving thoughts that personal sharing IDs might also minimize security breaches, cyber security knowledge could be strengthened.’ 
+            The author is exclaiming that the more research done into cyber security the better the security of the bank becomes.’
+            According to Pongsakorn Limna (2022), ‘By raising awareness of the cyber security of mobile banking, which is crucial for the community or society in general but especially for my family, friends, and relatives, cyber security awareness might be raised.’ 
+            The author is saying that the awareness should not be only from the bank to the client but awareness about cybercrimes and security and privacy with banking details should be spread through the domestic sector as well.
+            According to Pongsakorn Limna (2022), ‘Enhancing perceptions about the benefits of using registered or recommended hardware and software can boost behavioral choice protection and maximize data protection against malware.’ According to Pongsakorn Limna (2022), ‘Therefore, it is important for the banking business and any sector to pay attention to cyber security knowledge and awareness in order to establish behavioral choice protection.’
+            The author is saying that the bank should monitor their clients’ behavior but ethically it is fine because it is for the intention of keeping those same clients’ information more secure and private.
+            
+            The following is taken from an article that describes the challenges and opportunities of security of Android banking mobile apps. I have interpreted my understanding and its link to my study for each major discovery by Akarsh Sharma.
+            
+            According to Akarsh Sharma (2023), ‘Our lives are made easier by the capabilities that apps on our mobile devices offer, such as rapid payments and others.’ According to Akarsh Sharma (2023), ‘Many banks now provide mobile banking services via applications, and an upsurge in online payments made using cell phones has been seen.’ According to Akarsh Sharma (2023), ‘Mobile banking apps represent a security risk because of their size and dynamic nature.’ According to Akarsh Sharma (2023), ‘We have provided a thorough empirical study of the security concerns of international banking apps in order to provide relevant insights and enhance security because flaws can result in significant monetary losses.’ According to Akarsh Sharma (2023), ‘Because of data-related weaknesses in banking apps, these vulnerabilities could result in significant financial losses.’
+            The author is giving gratitude to the banks for creating systems that make payment so fast and easy. Then it also explains how the easier it gets to make these payments it gets even easier to have data stolen. The author states from the statistics that have been gathered in that study there have even been financial losses because of data theft in banks.
+            
+            According to Akarsh Sharma (2023), ‘Financial services and transactions made through mobile devices are referred to as mobile banking.’ According to Akarsh Sharma (2023), ‘Mobile banking security, which is essential for protecting users' data and preventing hackers from accessing and stealing it, will require data transfer.’ According to Akarsh Sharma (2023), ‘The market's most secure and data-sensitive apps are those related to banking.’ According to Akarsh Sharma (2023), ‘Traditional financial services, from the first ATM through e-banking, have been significantly impacted by cashless mobile payment.’ According to Akarsh Sharma (2023), ‘Authentication is essential since it ensures that only those with permission can access the data.’ According to Akarsh Sharma (2023), ‘Avoiding time-consuming authorization is also required in order to swiftly get data.’
+            The author states that as easy as it is to make a mobile payment without cash it must be heavily secured as well. The author is referring to OTP pins and other forms of authentication that matter when doing cashless on-site transactions. It is also stated how difficult these transactions are to integrate.
+            
+            According to Akarsh Sharma (2023), ‘Because people believe that all communications between local banking apps and remote bank servers are secured (e.g., over HTTPS), users commonly assume that banking applications offer secure transactions and an intuitive user experience.’ According to Akarsh Sharma (2023), ‘Unfortunately, this supposition isn't always accurate.’ According to Akarsh Sharma (2023), ‘We investigated several real-world banking apps and found novel types of flaws that are hard to detect with traditional industrial and open-source methods.’
+            This part of the article the author has further looked into the aspect of a payment done from a website. The author is also referencing actual statistics from 2009-2018 which makes the authenticity high but slightly outdated as we are in the year 2023. The author is mentioning how the user experience is much different from one that is in person but can be flawed during a transaction with inaccuracy. 
+            
+            According to Akarsh Sharma (2023), ‘For the sake of simplicity, all encoded information in this example should be decoded.’ According to Akarsh Sharma (2023), ‘When mobile devices in flexible banking request pages from a business server, a basic advancement is made to show that the requests are coming from the Wireless Transport Security Layer (WTSL) standard.’ According to Akarsh Sharma (2023), ‘The requests are decoded in a WAP (Wireless Application Protocol) segment.’ According to Akarsh Sharma (2023), ‘When the solicitations have been cracked, they are often sent off.’
+            The author goes deeply into the technological aspect of the transaction. The explanation of how the encrypted transfer data must first be decrypted then analyzed and then a transaction made. This is a great process to mention as this is putting the study into an aspect of how important banks are taking transactions.
+            
+            According to Akarsh Sharma (2023), ‘Traditional PINs and passwords provide a lower level of security than two-factor authentication, which may be essential for sensitive transactions.’ According to Akarsh Sharma (2023), ‘With two separate "factors"—something they know, something they have, or something they are—two-factor approval asks customers to approve their persona.’ According to Akarsh Sharma (2023), ‘A resulting variable in various two-factor approval processes can be a phone.’ According to Akarsh Sharma (2023), ‘Passwords can be generated on a PDA or sent from a phone via instant message.’ According to Akarsh Sharma (2023), ‘If two-factor authentication isn't used, unauthorized users could access sensitive information and use mobile devices.’ In this section of the article, the author has further dealt with the two-factor authentication process. This is an important process that verifies details via an SMS or email before a transaction is made. This is the best way to verify the person’s identity and is a highly private activity. This type of activity when done is very secure and most banks have already integrated it into their system. It is up to the users to take advantage of this sort of authentication or not.
+            
+            According to Akarsh Sharma (2023), ‘TrojanZeus Trojan indicated varied bank clients, script kitty, PC malware, and online hazardous ventures all exist.’ According to Akarsh Sharma (2023), ‘Attackers frequently use the Zitmo illness to prevent SMS banking.’ According to Akarsh Sharma (2023), ‘Developers typically employ Zeus to get close enough to portable trade confirmation numbers or passwords, despite sickness.’
+            The author mentions the main real-world scenarios of a hacker trying to break into the system. These attacks are very dangerous and can break and corrupt the entire network. It is extremely important for the cyber security person to be equipped to deal with any of those attacks. These are attacks that can target the company’s entire database and threaten the privacy and security of both employees and clients. Finding someone that commits these attacks is punishable by law with jail time.
+            
+            According to Akarsh Sharma (2023), ‘Android is the most widely used mobile operating system. It's crucial to increase Android OS security in order to safeguard user privacy and personal data.’ This means that if you are banking on an Android phone you are more at risk according to this author. 
+            
+            The following is taken from an article that describes the effects of cyber crimes on E-banking. I have interpreted my understanding and its link to my study for each major discovery by Mohamed Fareed Ghazi Rafea & Allam Hamdan.
+            
+            According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023), ‘The Trojan Horse virus is the most prevalent kind of malware.’ According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023), ‘It is based on the Roman theory of how an entry gift is obtained after an attack.’ According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023), ‘What it really means is that thieves frequently employ links from foreign websites to trick their victims into clicking on them.’ According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023), ‘resulting in damage in a virus attack that steals data and disables the electronic host.’ According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023), ‘when the recipient has absolutely no control over it.’ According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023), ‘One click caused the closure of numerous significant businesses, including nuclear power facilities.’ According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023), ‘This technique was originally employed as a helpful ethical hacking technique.’ According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023), ‘Though not everyone practices it as good manners.’ According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023), ‘Technology permeates the online community, whether people follow moral principles or not.’
+            These authors have further explained what a trojan horse virus is, and this is exclaiming the dangers of it. This is being applied to the banking sector and threatens big data. The study is explaining how a single click could end a business. The article is still promoting companies to hire a specialist to prevent such an attack from happening. The cyber security expert can be hired to test the system known as white hat hacking or ethical hacking.
+            
+            According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023), ‘a poll from 2016, cybercrime cost the global economy $450 billion, with Asian organizations bearing the brunt of the financial burden at more than $81 billion.’ According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023), ‘More than 70% of CEOs of banks and capital markets hold their developments at risk due to cyber threats.’ According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023), ‘Financial services corporations have been more severely damaged by security breach occurrences than businesses in a variety of other industries.’ These authors have conducted a poll to gather information. According to these large amounts of data have been lost. Large amounts of funds have been lost due to cyber crimes hacking and privacy and security breaches. These are well-known companies that have been breached, this means that a small business is very vulnerable to hacking and cybercrime.
+            
+            According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023), ‘Risk assessment is one of the best assessment techniques used;’ According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023), ‘it is more cost-effective in analyzing and following the problem.’ According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023), ‘This indicates that the entity is prepared to prioritize the threat so that the cost will have a smaller negative impact on the business.’ According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023), ‘It is clear that using this tactic will help a business recover its losses.’
+            The researcher has found that there is a way to prevent events from happening that could be fatal for the company, this method Is to assess the risk. This is one of this proposal’s objectives and further strengthens the theory of planning before action.
+            
+            According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023), ‘Advanced security automation analyses a profile's essential benefits effectively enough with its integration and variety of products.’ According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023), ‘Even with limited resources that are involved in the improvement of productivity, security engineers can detect these problems in a reasonable amount of time.’ According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023), ‘Humans are capable of creating artificial intelligence through creative research.’ According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023), ‘These advancements have made it possible to recognize and counteract any changing threat within the cyber network.’ According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023), ‘The egger concentration in cybercrime is given significant priority, particularly in banks.’ According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023), ‘Because they are aware of the significant hazards that are brought on by cyber threats, bank organizations are increasingly allocating more money to combating them.’ The authors have found that having an AI search the database is very beneficial to the company. This will increase productivity because the people that usually do the checks can now focus on another task and let the robot do the job. This also decreases costs because another cyber security person does not have to be on board, and a robot does not need to be paid.
+            
+            According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023), ‘Online services are now a standard offering in the banking sector in a world that is expanding quickly.’ According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023), ‘Customers can benefit from the convenience of conducting transactions on safe websites or mobile phone applications without having to physically present themselves.’ According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023), ‘In just one simple step of a click, online banking provides the whole connected cash flow overview of money transfers, cash deposits, and cash withdrawals for individual usage or even a whole organization.’ According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023), ‘These days, one can maintain a continuous record of their everyday financial activities thanks to quick and simple Internet access.’ The authors express the velocity at which the banking sector is enlarging thus implying that the quantity of data is increasing. The need to track users that are on these banking websites and making transactions must be maintained. These records are heavily secured and used for statistical purposes as well as giving the client their monthly statements. With the Internet of Things, it is becoming more and more simple to keep track of these records.
+            
+            According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023), ‘The convenience of online banking has allowed businesses to do away with some necessary office items.’ According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023), ‘Additionally, by eliminating superfluous expenses, it has produced a positive gross balance. Even while the information is sound, there is always a downside to every practical application.’ According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023), ‘The fundamental challenge that some financial institutions have always had to face is security.’ According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023), ‘Due to the prevalence and quick advancement of technology, individuals are more at risk of identity theft due to unethical internet hacking practices.’ The authors say the age of the internet has even made space in the office thus reducing costs again. This means that the bank can produce a higher gross monthly profit. The recurring issue is still security and identity theft which is happening more often with the technology future.
+            
+            According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023), ‘Artificial intelligence is now a part of our daily lives. Nevertheless, what are the advantages of banks?’ According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023), ‘Data about customers may be easily tracked based on their spending.’ According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023), ‘Due to the past, present, and future, a complete budgeting plan can be reviewed and developed for the consumer.’ According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023), ‘Artificial intelligence (AI) assists in tracking relevant data sources that will improve the customer's experience in order to provide a better knowledge of a customer's behavior and needs.’
+            These authors are saying that AI should be embraced. AI helps track customers on their spending and this sensitive information can be used for statistics and even improve product quality. AI could also help plan by providing a good budget plan for the bank.
+            
+            According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023), ‘Phishing is the act of sending mass emails to a target in an effort to get them to divulge personal information.’ According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023), ‘Phishing emails are sneakier than spam emails that sell items.’ According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023), ‘The typical period of time when spammers target emails is 29 days.’ According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023) ‘On the other side, within 14 hours of the invitation, identity thieves process the recipient's reply.’ The authors are addressing a very dangerous virus that is called Phishing. This is the form of spam email you get after your personal data has been sold. It is dangerous because you could be influenced to buy products and never receive the product and your banking details will be stolen.
+            
+            According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023), ‘Phishing emails use lures to lure unsuspecting individuals into their traps in cyberspace. When sending out millions of emails, the sender can pose as a reputable bank or commercial organization, for instance.’ According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023), ‘They will cooperate as clients because they have faith in you.’ According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023), ‘Some identity thieves frequently exploit well-known businesses with great security and significant revenue, such as Apple, Amazon, E-Bay, PayPal, etc.’ According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023), ‘A security compromise could occur even with those well-known names who are less likely to fall under the phishing group.’ The authors have shown that major companies often sell this information about their clients. The attackers even pose as reputable banks, and this can be very misleading. Even with the best security companies still get trapped and lose their client’s data.
+            
+            According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023), ‘Spoofed websites are a different subset of phishing.’ According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023), ‘They are bogus websites that persuade users to divulge their personal data.’ According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023), ‘One method is for the recipient to get a phishing email that deceives them into believing a convincing claim that leads to a significant issue.’ According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023) ‘which makes the situation clearly phony.’ According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023), ‘A private link that imitates an official bank website is supplied to verify all the personal information that is allegedly going to be released in order to fix the problem.’ According to Mohamed Fareed Ghazi Rafea & Allam Hamdan (2023), ‘The fraudster, or phisher, may frequently utilize the stolen login information and passwords to empty the entire bank account.’ The authors talk about fake websites. Hackers create a fully functioning website that mimics a real website. A user will log in giving their real banking details email and password. Once the person has clicked submit those accounts are compromised and the hacker will log into those details. It is always important to check the authenticity of websites before submitting any personal information.
+            
+            Theoretical foundation:
+            
+            Researchers also found a sizable research gap between customers' expectations for technical support and cybersecurity awareness initiatives from banks and their happiness with the present cybersecurity assistance offered by banks. The goal of the current research is to close this gap.
+            
+            The existing work mostly emphasized consumer choices, satisfaction, and cybersecurity experiences. However, the influence of client awareness of cybersecurity issues on their happiness with banking services has not been the subject of any noteworthy studies, according to Amar Johri’s article. 
+            
+            The article that follows is quantitative research, with data collection in the form of a questionnaire given to 414 participants. The questionnaire is a choice to rate from 0-5 in questions about cyber security awareness. The analysis of the data was done according to a percentage amount. This article was written by Pongsakorn Limna.
+            
+            The third article looks at mobile banking app vulnerabilities as well as security difficulties with mobile internet banking applications and then studied a few security strategies to address the relevant security issues. In this essay, we discussed security concerns, vulnerabilities, and security solutions for dealing with issues related to mobile banking apps. This study examined the numerous techniques available to test the security of payments made through these applications and gave an analysis of several banking apps. This study concludes that mobile banking apps need a foundation in order to increase app security and enable future advancements. This suggests that adaptable apps and their security mechanism are resource-efficient in the long run, requiring less maintenance. This article is written by Akarsh Sharma.
+            This article has given a better understanding of the technical side of web security compared to the other articles. 
+            
+            The fourth article is studying the effects of Cyber Crime on E-Banking. This study aims to increase public understanding of how cybercrime affects our daily interactions. We will briefly discuss the problems that arise during these threats and how they affect banks and other financial institutions in the introduction. Finally, we will provide some quick definitions of key terms like malware, phishing, and other dangerous viruses. Data collection consists of surveys. This article is written by Mohamed Fareed Ghazi Rafea & Allam Hamdan.
+            
+
+        </p>
+         </article>
+
+      <nav class="blog-pagination" aria-label="Pagination">
+        <a class="btn btn-outline-primary rounded-pill" href="#">Older</a>
+        <a class="btn btn-outline-secondary rounded-pill disabled" aria-disabled="true">Newer</a>
+      </nav>
+
+    </div>
+
+    <div class="col-md-4">
+      <div class="position-sticky" style="top: 2rem;">
+        <div class="p-4 mb-3 bg-body-tertiary rounded">
+          <h4 class="fst-italic">About</h4>
+          <p class="mb-0">Customize this section to tell your visitors a little bit about your publication, writers, content, or something else entirely. Totally up to you.</p>
+        </div>
+
+        <div>
+          <h4 class="fst-italic">Recent posts</h4>
+          <ul class="list-unstyled">
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Example blog post title</h6>
+                  <small class="text-body-secondary">January 15, 2023</small>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">This is another blog post title</h6>
+                  <small class="text-body-secondary">January 14, 2023</small>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Longer blog post title: This one has multiple lines!</h6>
+                  <small class="text-body-secondary">January 13, 2023</small>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="p-4">
+          <h4 class="fst-italic">Archives</h4>
+          <ol class="list-unstyled mb-0">
+            <li><a href="#">March 2021</a></li>
+            <li><a href="#">February 2021</a></li>
+            <li><a href="#">January 2021</a></li>
+            <li><a href="#">December 2020</a></li>
+            <li><a href="#">November 2020</a></li>
+            <li><a href="#">October 2020</a></li>
+            <li><a href="#">September 2020</a></li>
+            <li><a href="#">August 2020</a></li>
+            <li><a href="#">July 2020</a></li>
+            <li><a href="#">June 2020</a></li>
+            <li><a href="#">May 2020</a></li>
+            <li><a href="#">April 2020</a></li>
+          </ol>
+        </div>
+
+        <div class="p-4">
+          <h4 class="fst-italic">Elsewhere</h4>
+          <ol class="list-unstyled">
+            <li><a href="#">GitHub</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Facebook</a></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer class="py-5 text-center text-body-secondary bg-body-tertiary">
+  <p>Website built for <a href="https://www.iiemsa.co.za/">IIE MSA</a> by <a href="">Thaveshan Naidoo</a>.</p>
+  <p class="mb-0">
+    <a href="#">Back to top</a>
+  </p>
+</footer>
+<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+    </body>
+</html>
